@@ -1,0 +1,153 @@
+
+
+body {
+    margin: 0;
+}
+
+
+nav {
+    background-color: lightgray;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer {
+    background-color:lightgrey;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+.splash {
+    background-color: rgb(199, 252, 254);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(207, 206, 206);
+
+}
+
+.splash p {
+    font-weight: bold;
+}
+
+.splash h1 {
+    font-family: 'Bodoni Moda SC', sans-serif;
+    font-size: 2em;
+    color: black;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Bodoni Moda SC', sans-serif;
+    font-size: 2em;
+    color: #3498db;
+}
+
+img {
+    border: 4px solid black;
+    border-radius: 50px;
+
+}
+
+.address {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+
+.tagline {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+}
+
+hr {
+    border: 2px solid rgb(0, 0, 0);
+    margin: 50px auto;
+}
+
+h2 {
+    font-family: 'Bodoni Moda SC', sans-serif;
+    color: #3498db;
+}
+
+.education {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: square;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a {
+    color: rgb(76, 139, 248);
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+a:hover {
+    color:rgb(147, 250, 255);
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card img {
+    width: 75px;
+}
+
+.card {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgb(207, 206, 206);
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 50%;
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #bdb5b59b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    border-radius: 5px;
+}
+
+form textarea {
+    border-radius: 5px;
+    border: 2px solid black;
+}
